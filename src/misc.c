@@ -179,7 +179,7 @@ fatal(const char *ctl, ...)
 	     "    -l          force line-buffered stdout/stderr"
 	);
 #ifndef NOCHECKSUM
-	puts("    -m          equals to -c md5 for compatibility purposes\n"
+	puts("    -m          equivalent to -c md5 for compatibility purposes\n"
 	     "    -M file     checksum file name, default .[DIGEST].CHECKSUMS\n"
 	     "                where DIGEST is the name of the message digest used"
 	);
